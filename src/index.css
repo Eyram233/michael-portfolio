@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-electric-blue: #2563EB;
+  --color-surface: #111111;
+  --color-dark-bg: #0A0A0A;
+  --color-border-dark: #1F1F1F;
+  --font-outfit: "Outfit", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--color-dark-bg);
+    color: white;
+    font-family: var(--font-outfit);
+    margin: 0;
+    padding: 0;
+  }
+}
