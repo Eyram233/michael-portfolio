@@ -33,7 +33,7 @@ const Hero = () => {
             I build data-driven web applications and AI-powered tools that solve real engineering problems.
           </h1>
           <p className="text-gray-600 dark:text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-            Computer Science & Engineering Student at UMaT
+            Computer Science & Engineering Student
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

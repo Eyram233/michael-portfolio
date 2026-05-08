@@ -1,4 +1,5 @@
 import SectionWrapper from './SectionWrapper';
+import ProfilePic from '../assets/profile.png';
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
             <div className="absolute inset-0 rounded-full border-2 border-[#2563EB] transform scale-[1.05] opacity-50"></div>
             {/* Image Placeholder */}
             <div className="w-64 h-64 md:w-72 md:h-72 rounded-full bg-[#FFFFFF] dark:bg-[#111111] border-4 border-[#E2E8F0] dark:border-[#1F1F1F] flex items-center justify-center overflow-hidden relative z-10 transition-colors">
-              <img src="/src/assets/profile.png" alt="Michael Eyram Alomatu Jr." className="w-full h-full object-cover" />
+              <img src={ProfilePic} alt="Michael Eyram Alomatu Jr." className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -22,7 +23,8 @@ const About = () => {
           </h2>
           <div className="space-y-4 text-gray-600 dark:text-gray-300 text-lg leading-relaxed transition-colors">
             <p>
-              I specialize in bridging traditional software engineering with modern agentic AI workflows — designing autonomous systems that compress development timelines and turn complex technical requirements into clean, functional products.
+              Hi, I'm Michael. You can call me BIG MIKE!
+              <br />I specialize in bridging traditional software engineering with modern agentic AI workflows — designing autonomous systems that compress development timelines and turn complex technical requirements into clean, functional products.
             </p>
             <p>
               My hands-on experience spans internships at Ghana Grid Company and the Ghana Ports and Harbours Authority, where I translated real-world engineering challenges into working software. I have a particular interest in applying software to engineering and infrastructure challenges.
