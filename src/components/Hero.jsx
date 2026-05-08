@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Mail } from 'lucide-react';
+import CV from '../assets/Michael Eyram Alomatu CV.pdf';
+
 
 const Hero = () => {
   const scrollTo = (e, href) => {
@@ -27,10 +29,10 @@ const Hero = () => {
           <span className="inline-block py-1 px-3 rounded-full bg-[#2563EB]/10 border border-[#2563EB]/20 text-[#2563EB] text-sm font-medium mb-6">
             Software Engineer & Agentic AI Architect
           </span>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-tight max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-[#0A0A0A] dark:text-white mb-6 leading-tight max-w-4xl mx-auto">
             I build data-driven web applications and AI-powered tools that solve real engineering problems.
           </h1>
-          <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+          <p className="text-gray-600 dark:text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
             Computer Science & Engineering Student at UMaT
           </p>
 
@@ -44,8 +46,11 @@ const Hero = () => {
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="#"
-              className="w-full sm:w-auto px-8 py-3 rounded-md bg-[#111111] border border-[#1F1F1F] text-white font-medium hover:bg-[#1A1A1A] transition-colors flex items-center justify-center gap-2"
+              href={CV}
+              download="Michael_Eyram_Alomatu_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-8 py-3 rounded-md bg-[#FFFFFF] dark:bg-[#111111] border border-[#E2E8F0] dark:border-[#1F1F1F] text-[#0A0A0A] dark:text-white font-medium hover:bg-gray-100 dark:hover:bg-[#1A1A1A] transition-colors flex items-center justify-center gap-2"
             >
               <Download className="w-4 h-4" />
               Download CV

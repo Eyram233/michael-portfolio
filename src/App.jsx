@@ -11,11 +11,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-[#0A0A0A] text-white min-h-screen font-sans selection:bg-[#2563EB]/30 selection:text-white relative">
+    <div className="bg-[#F8F9FA] dark:bg-[#0A0A0A] text-[#0A0A0A] dark:text-white min-h-screen font-sans selection:bg-[#2563EB]/30 selection:text-white relative">
       {/* Consistent Animated Dot Grid Background */}
       <div className="fixed inset-0 z-0 pointer-events-none">
         <div
-          className="absolute inset-0 bg-[radial-gradient(#1F1F1F_1px,transparent_1px)] [background-size:24px_24px] opacity-30"
+          className="absolute inset-0 bg-[radial-gradient(#E2E8F0_1px,transparent_1px)] dark:bg-[radial-gradient(#1F1F1F_1px,transparent_1px)] [background-size:24px_24px] opacity-30 dark:opacity-30"
           style={{
             maskImage: 'radial-gradient(ellipse 80% 80% at 50% 50%, #000 10%, transparent 100%)',
             WebkitMaskImage: 'radial-gradient(ellipse 80% 80% at 50% 50%, #000 10%, transparent 100%)',
