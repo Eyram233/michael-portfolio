@@ -27,7 +27,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <span className="inline-block py-1 px-3 rounded-full bg-[#2563EB]/10 border border-[#2563EB]/20 text-[#2563EB] text-sm font-medium mb-6">
-            Software Engineer & Agentic AI Architect
+            Full Stack Software Engineer
           </span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-[#0A0A0A] dark:text-white mb-6 leading-tight max-w-4xl mx-auto">
             I build data-driven web applications and AI-powered tools that solve real engineering problems.

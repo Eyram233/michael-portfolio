@@ -24,10 +24,12 @@ const About = () => {
           <div className="space-y-4 text-gray-600 dark:text-gray-300 text-lg leading-relaxed transition-colors">
             <p>
               Hi, I'm Michael. You can call me BIG MIKE!
-              <br />I specialize in bridging traditional software engineering with modern agentic AI workflows — designing autonomous systems that compress development timelines and turn complex technical requirements into clean, functional products.
             </p>
             <p>
-              My hands-on experience spans internships at Ghana Grid Company and the Ghana Ports and Harbours Authority, where I translated real-world engineering challenges into working software. I have a particular interest in applying software to engineering and infrastructure challenges.
+              I'm a Full Stack Software Engineer who builds data-driven web applications from scratch, starting with a clear problem and finishing with something people can actually use. My foundation is in the core web stack: HTML5, CSS3, and Vanilla JavaScript, with hands-on experience in React, Python, Django, and SQL across both frontend and backend work. Part of how I work is using AI tooling, specifically Google Antigravity, to move faster and build better. I use it the same way a carpenter uses a power tool: it doesn't replace the skill or the judgment, it just means I can deliver more, in less time, without cutting corners on quality. Every architectural decision, every line of logic, every final output, that's still entirely mine.
+            </p>
+            <p>
+              I've built functional web tools that solve real problems across technical and operational domains, and contributed to enterprise systems during internships at GRIDCo and the Ghana Ports and Harbours Authority. I like working on software that solves real, specific problems and I bring the technical range and the workflow discipline to see it through from idea to deployment.
             </p>
           </div>
         </div>
